@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Basic</title>
+    <style>
+        #box {
+            width : 100px; height : 100px;
+            background-color: red;
+        }
+
+        #box.hover {
+            background-color: blue;
+            border-radius: 50px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('#box').hover(function() {
+                $('#box').addClass('hover');
+            }, function() {
+                $('#box').removeClass('hover');
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id = "box"></div>
+</body>
+</html>

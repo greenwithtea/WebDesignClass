@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2020111694 이기연</title>
+    <style>
+        .font_나눔스퀘어라운드 {font-family: 'NanumSquareRound',sans-serif;}
+        table {
+            background-color: rgb(124, 123, 142);
+            text-align: center;
+        }
+        thead {
+            text-align: left;
+        }
+        input[type= "text"] {
+            border-radius : 20px;
+            border-style: none;
+        }
+        input[type= "submit"] {
+            border-radius : 20px;
+            border-style : none;
+            width : 167px;
+            height : 18px;
+            background-color: white;
+        }
+        .top_bar {
+            background : gray;
+            position : fixed;
+            left : 0; top : 0; right : 0;
+            height : 50px;
+        }
+        input[type= "button"] {
+            background-color: orange;
+            color :orangered;
+            height : 45px;
+            width : 60px;
+            border-radius : 5px;
+            font-size : 20px;
+            font-weight :800;
+        }
+    </style>
+</head>
+<body>
+    <div class = "top_bar">
+        <input type = "button" value = "이전">
+        &nbsp;&nbsp;&nbsp;
+        <input type = "button" value = "다음" onclick="location.href ='Quiz2.html'">
+    </div>
+    <div class = "container">
+        <p>&nbsp;</p>
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="2"><h1 class = "font_나눔스퀘어라운드">간단한 입력양식</h1></td>
+                </tr>
+            </thead>
+            <br>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for = "idname" class = "font_나눔스퀘어라운드">아이디</label>
+                    </td>
+                    <td>
+                        <input id = "idname" type ="text" name ="idname"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for = "password" class = "font_나눔스퀘어라운드">비밀번호</label>
+                    </td>
+                    <td>
+                        <input id = "password" type ="text" name ="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for = "hole">&nbsp;</label>
+                    </td>
+                    <td>
+                        <input id = "submit" type ="submit" name ="submit">
+                    </td>
+                </tr>
+    </div>
+</body>
+</html>

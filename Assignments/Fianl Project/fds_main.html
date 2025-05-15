@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>✨너가 찾던 다꾸 마켓✨</title>
+    <link href="fontstyle.css" rel="stylesheet">
+
+
+    <meta charset="utf-8">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <style>
+        body {
+            background-color: rgb(255, 254, 240);
+        }
+        #header {
+            margin-top: 50px;
+        }
+        .container {
+            margin-bottom: 8px;
+        }
+        .market_list {
+            float: left;
+            padding : 8px 0px 8px 0px;
+            font-size: 20px;
+            font-weight: 600;
+            background-color: rgba(207, 150, 27, 0.281);
+        }
+        .market_list li {
+            list-style-type: none;
+            float: left;
+            color: black;
+        }
+        table#marketlist {
+            width: 1350px;
+            margin-left: 20px;
+        }
+        .list1 {
+            list-style-type: none;
+            color: black;
+            text-align: center;
+        }
+        ul :nth-child(1) {padding-left: 10px;}
+        ul :nth-child(2) {padding-left: 10px;}
+        ul :nth-child(3) {padding-left: 10px;}
+        ul :nth-child(4) {padding-left: 10px;}
+        ul :nth-child(5) {padding-left: 10px;}
+        ul :nth-child(6) {padding-left: 10px;}
+        ul :nth-child(7) {padding-left: 10px;}
+        ul :nth-child(8) {padding-left: 10px;}
+        ul :nth-child(9) {padding-left: 10px;}
+        ul :nth-child(10) {padding-left: 10px;}
+        ul :nth-child(11) {padding-left: 10px;}
+        ul :nth-child(12) {padding-left: 10px;}
+        ul :nth-child(13) {padding-left: 10px;}
+        ul :nth-child(14) {padding-left: 10px;}
+        ul :nth-child(15) {padding-left: 10px;}
+        ul :nth-child(16) {padding-left: 10px;}
+        ul :nth-child(17) {padding-left: 10px;}
+        ul :nth-child(18) {padding-left: 10px; padding-right: 10px;}
+        .table {
+            width: 600px;
+            height: 200px;
+            background-color: rgb(255, 231, 238);
+            display: none;
+        }
+        a { text-decoration-line: none; text-decoration-color: black;}
+        #달력 { display: block; margin-left: 120px;}
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+ 
+         ::-webkit-scrollbar-track {
+            background: #eeeeee;
+            border-radius: 5px;
+            display: none;
+        }
+ 
+         ::-webkit-scrollbar-thumb {
+            background: linear-gradient(#ffcf75, #e0ff2e);
+            border-radius: 5px;
+        }
+        legend {height: 60px;}
+        fieldset ul {margin-top: 0px; padding-left: 20px;}
+        fieldset {width: 350px;}
+        footer {margin: 20px 0 50px 50px;}
+        h4 {margin-bottom: 0;}
+        button {background-color: rgb(255, 240, 255); text-align: center;}
+        #sns_scroll {
+            position: fixed;
+            text-align: center;
+            right: 10px;
+            bottom: 10%;
+            cursor: pointer;
+            z-index: 99999;
+        } 
+        #sns_scroll li {list-style-type: none;}
+    </style>
+</head>
+<body>
+    <div id="header">
+        <a href="fds_main.html"><img src="photo/로고.png" alt="로고" width="500" height="100"></a>
+        <div class="container">
+            <table id="marketlist">
+                <tr>
+                    <td>
+                        <ul class="market_list">
+                            <li id="ㄱ"><a href = "fds_marketlist_ㄱ.html">[ㄱ]</a></li>
+                            <li id="ㄴ"><a href = "fds_marketlist_ㄴ.html">[ㄴ]</a></li>
+                            <li id="ㄷ"><a href = "fds_marketlist_ㄷ.html">[ㄷ]</a></li>
+                            <li id="ㄹ"><a href = "fds_marketlist_ㄹ.html">[ㄹ]</a></li>
+                            <li id="ㅁ"><a href = "fds_marketlist_ㅁ.html">[ㅁ]</a></li>
+                            <li id="ㅂ"><a href = "fds_marketlist_ㅂ.html">[ㅂ]</a></li>
+                            <li id="ㅅ"><a href = "fds_marketlist_ㅅ.html">[ㅅ]</a></li>
+                            <li id="ㅇ"><a href = "fds_marketlist_ㅇ.html">[ㅇ]</a></li>
+                            <li id="ㅈ"><a href = "fds_marketlist_ㅈ.html">[ㅈ]</a></li>
+                            <li id="ㅊ"><a href = "fds_marketlist_ㅊ.html">[ㅊ]</a></li>
+                            <li id="ㅋ"><a href = "fds_marketlist_ㅋ.html">[ㅋ]</a></li>
+                            <li id="ㅌ"><a href = "fds_marketlist_ㅌ.html">[ㅌ]</a></li>
+                            <li id="ㅍ"><a href = "fds_marketlist_ㅍ.html">[ㅍ]</a></li>
+                            <li id="ㅎ"><a href = "fds_marketlist_ㅎ.html">[ㅎ]</a></li>
+                            <li>+</li>
+                            <li><a href = "fds_marketlist_shop.html">[소품샵]</a></li>
+                            <li>+</li>
+                            <li><a href = "fds_schedule.html">[통판일정]</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <a href="fds_schedule.html"><img id="달력" src="photo/달력.png" alt="달력" width="900" height="655"></a>
+    <br>
+    <br>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+
+<style type="text/css">
+
+.swiper-container {
+	height:420px; width: 810px;
+	border:5px solid silver;
+	border-radius:7px;
+	box-shadow:0 0 20px #ccc inset;
+    margin-left: 160px;
+}
+.swiper-slide {
+	text-align:center;
+	display:flex; 
+	align-items:center;
+	justify-content:center; 
+}
+.swiper-slide img {
+	box-shadow:0 0 5px #555;
+	max-width:100%;
+
+}
+
+</style>
+
+<div style=" margin-top:5px; margin-left: 180px; background-color: rgb(255, 240, 255); width: 200px;"><h3>&nbsp;&nbsp;+ What's New! +</h3></div>
+
+<div class="swiper-container">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide"><a href ="fds_marketlist_ㅁ.html#모나니스튜디오"><img src="photo/홍보1.JPG"></a></div>
+		<div class="swiper-slide"><a href ="fds_marketlist_ㅁ.html#모나니스튜디오"><img src="photo/홍보2.JPG"></a></div>
+		<div class="swiper-slide"><a href ="fds_marketlist_ㅁ.html#모나니스튜디오"><img src="photo/홍보3.JPG"></a></div>
+		<div class="swiper-slide"><a href ="fds_marketlist_ㅁ.html#모나니스튜디오"><img src="photo/홍보4.JPG"></a></div>
+	</div>
+
+	<div class="swiper-button-next"></div>
+	<div class="swiper-button-prev"></div>
+
+	<div class="swiper-pagination"></div>
+</div>
+
+
+<script>
+
+new Swiper('.swiper-container', {
+
+	slidesPerView : 2, 
+	spaceBetween : 30,
+	slidesPerGroup : 2, 
+
+	loopFillGroupWithBlank : true,
+
+	loop : true, 
+
+	pagination : { 
+		el : '.swiper-pagination',
+		clickable : true, 
+	},
+	navigation : { 
+		nextEl : '.swiper-button-next', 
+		prevEl : '.swiper-button-prev', 
+	},
+});
+
+</script>
+    <div id="sns_scroll">
+        <ul>
+            <li>
+                <a href ="https://pf.kakao.com/_lBAxlb" target="_blank" class="kakao"><img src="photo/카카오톡채널.png" alt = "카카오톡채널" width="40px"></a>
+            </li>
+            <li>
+                <a href = "https://www.instagram.com/find_daggushop/" target="_blank" class="insta"><img src = "photo/인스타그램.png" alt = "인스타그램"></a>
+            </li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <footer>
+        <h4>ⓒZero</h4>
+        <fieldset>
+            <legend><h4>CONTACT/문의</h4></legend>
+                <ul>
+                    <li>
+                        <span id ="textDiv">xxxxxxxx@naver.com</span>&nbsp;<button id="copyBtn">복사</button>
+                        <script src ="https://code.jquery.com/jquery-3.4.1.js"></script>
+                        <script>
+                            var copyBtn = document.getElementById("copyBtn");
+                            copyBtn.addEventListener("click", function(){
+                            var text = document.getElementById("textDiv").innerText;
+                            var createInput = document.createElement("input");
+                            createInput.setAttribute("type", "text");
+                            document.getElementById("textDiv").appendChild(createInput);
+                            createInput.value = text;
+                            createInput.select();
+                            document.execCommand('copy');
+                            document.getElementById("textDiv").removeChild(createInput);
+                            alert('+복사가 완료되었습니다+');
+                            });
+                        </script>
+                    </li>
+                    <li>카카오톡 채널_@find_daggushop</li>
+                    <li>인스타그램_@find_daggushop</li>
+                </ul>
+            </li>
+        </fieldset>
+        <fieldset>
+            <legend><h4>C/S</h4></legend>
+                <ul>
+                    <li>평일 10 a.m - 6 p.m.</li>
+                </ul>
+            </li>
+        </fieldset>
+    </footer>
+</body>
+</html>
