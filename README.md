@@ -1,7 +1,7 @@
 # Web Design and Planning Class
-2021 Fall term Web Design and Planning Class - Practicing Materials and Assignments
-
 2021년 1학년 2학기 웹디자인및기획 수업 실습물 및 과제물
+
+2021 Fall term Web Design and Planning Class - Practicing Materials and Assignments
 
 ## 📁 폴더 구조 | Folder Structure
 
